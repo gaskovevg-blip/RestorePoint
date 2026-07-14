@@ -59,7 +59,7 @@ else {
 
 # Формируем описание точки восстановления с текущей датой
 $currentDate = Get-Date -Format "dd.MM.yyyy"
-$description = "$currentDate ИМАНГО"
+$description = "$currentDate :RestorePoint"
 Write-Host "Создание точки восстановления: '$description'" -ForegroundColor Cyan
 
 # Создаём точку восстановления
