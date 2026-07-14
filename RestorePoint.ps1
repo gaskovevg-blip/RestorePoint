@@ -1,5 +1,5 @@
 param(
-    [string]$Description = "IMANGO",
+    [string]$Description = "Restorepoint",
     [int]$KeepLast = 5,
     [char]$Drive = 'C'
 )
